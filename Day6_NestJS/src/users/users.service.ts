@@ -18,7 +18,7 @@ export class UsersService {
   create(user: Omit<User, 'id'>): User {
     console.log(' UsersService.create() called');
 
-    const newUser = { id: this.idCounter++, ...user };
+    const newUser = { id: this.idCounter++, ...user }; //unary +
     this.users.push(newUser);
 
     console.log(' User created:', newUser);
