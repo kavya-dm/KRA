@@ -14,7 +14,7 @@ import { LogAction } from '../decorators/log-action.decorator';
 @Controller('users')
 @UseInterceptors(LoggingInterceptor)
 export class UsersController {
-  constructor(private readonly usersService: UsersService) {
+  constructor(private readonly usersService: UsersService) {  //dependency Injection - create and return an existing instances
     console.log('🎮 UsersController instantiated');
   }
 
