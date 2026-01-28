@@ -1,0 +1,46 @@
+.app {
+  max-width: 420px;
+  margin: auto;
+  padding: 1rem;
+  font-family: sans-serif;
+}
+
+.form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+input {
+  flex: 1;
+  padding: 0.5rem;
+}
+
+button {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+li.done {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.filters button.active {
+  font-weight: bold;
+}
+
+.empty {
+  text-align: center;
+  color: rgb(92, 26, 184);
+}
