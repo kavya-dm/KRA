@@ -1,0 +1,30 @@
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.main-container {
+  display: flex;
+  gap: 20px;
+}
+
+.product-list, .cart {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 50%;
+}
+
+.product-card, .cart-item {
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+
+.product-card button, .cart-item button {
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.cart-summary {
+  margin-top: 20px;
+  font-weight: bold;
+}
