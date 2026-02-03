@@ -1,0 +1,16 @@
+import './globals.css';
+
+
+ // Root layout wraps the entire app
+ 
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  );
+}
